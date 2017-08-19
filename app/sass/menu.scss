@@ -1,0 +1,42 @@
+.hamburger__toggle { 
+  cursor: pointer; 
+}
+
+.hamburger__toggle span, .hamburger__toggle span:before, .hamburger__toggle span:after {
+  position: absolute;
+  display: block;
+  width: 35px;
+  height: 4px;
+  border-radius: 1px;
+  background: grey;
+  cursor: pointer;
+  content: '';
+}
+
+.hamburger__toggle span:before {
+  top: -10px; 
+}
+
+.hamburger__toggle span:after {
+  bottom: -10px;
+}
+
+.hamburger__toggle span, .hamburger__toggle span:before, .hamburger__toggle span:after {
+  transition: all 300ms ease-in-out;
+}
+
+.hamburger__toggle.active span {
+  background-color: transparent;
+}
+
+.hamburger__toggle.active span:before, .hamburger__toggle.active span:after {
+  top: 0;
+}
+
+.hamburger__toggle.active span:before {
+  transform: rotate(45deg);
+}
+
+.hamburger__toggle.active span:after {
+  transform: rotate(-45deg);
+}

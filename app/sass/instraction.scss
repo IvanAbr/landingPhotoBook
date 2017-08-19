@@ -1,0 +1,90 @@
+.instraction {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 55px;
+	padding-bottom: 97px;
+		
+		&_caption    {
+    		display: flex;
+    		justify-content: space-around;
+    		padding-bottom: 97px; 
+		}
+}	
+
+.instraction-item__caption {
+	margin-top: 27px;
+	text-align: center;
+	font-weight: $fontsemibold;
+	font-size: 20px;
+}
+
+.instraction-item__cloud {
+	position: relative;
+	width: 130px;
+	height: 130px;
+	border: 4px solid $primary-color;
+	border-radius: 50%;
+	background: url(../img/cloud.jpg) center;
+	background-color: white;
+	background-repeat: no-repeat;
+		
+		&::after {
+			position: absolute;
+			top: 50%;
+		    left: 100%;
+		    width: 136px;
+		    border-top: 4px dashed $primary-color;
+			content: '';    
+		}
+}
+
+.instraction-item__screen {
+	position: relative;
+	width: 130px;
+	height: 130px;
+	border: 4px solid $primary-color;
+	border-radius: 50%;
+	background: url(../img/screen.jpg) center;
+	background-color: white;
+	background-repeat: no-repeat;
+	
+		&::after {
+			position: absolute;
+		    top: 50%;
+		    left: 100%;
+		    width: 136px;
+		    border-top: 4px dashed $primary-color;
+			content: '';		    
+		}
+}
+
+.instraction-item__hand {
+	position: relative;
+	width: 130px;
+	height: 130px;
+	border: 4px solid $primary-color;
+	border-radius: 50%;
+	background: url(../img/hand.jpg) center;
+	background-color: white;
+	background-repeat: no-repeat;
+		
+		&::after {
+			position: absolute;
+		    top: 50%;
+		    left: 100%;
+		    width: 136px;
+		    border-top: 4px dashed $primary-color;
+			content: '';		    		   	    
+		}
+}
+
+.instraction-item__truck {
+	position: relative;
+	width: 130px;
+	height: 130px;
+	border: 4px solid $primary-color;
+	border-radius: 50%;
+	background: url(../img/truck.jpg) center;
+	background-color: white;
+	background-repeat: no-repeat;	
+}

@@ -1,0 +1,94 @@
+.testimonials {
+	background: url(../img/book.jpg) center;
+	background-size: cover;
+		
+		&-container {
+			max-width: 540px;
+			margin-left: 15px;	
+		}
+		
+		&__caption {
+			margin-bottom: 0;
+			padding-top: 40px;
+			padding-bottom: 55px;			
+			font-size: 45px;
+			font-weight: 300;
+				&::first-letter {
+					font-size: 60px;
+				}
+		}
+		
+		&__text {
+			margin-top: 27px;
+			margin-bottom: 40px;
+		
+		}
+		
+		&__link {
+			color: black;
+			text-decoration: none;			
+			font-weight: 600;
+				
+				&::after {					
+					position: absolute;
+				    top: -4px;
+				    margin-left: 4px;
+				    content: url(../img/arrow.jpg);
+				}
+
+			&-container {
+					position: relative;
+					text-align: right;					
+				}
+
+		}
+		
+		&__button {
+			margin-top: 94px;
+			padding: 25px 42px;
+			border: 1px solid black;
+		    border-radius: 10px;
+			background: rgba(255, 255, 255, 0);		    
+		    font-size: 22px;
+		    font-weight: 400;
+				
+				&-container {
+					padding-bottom: 55px;
+					text-align: center;					
+				}
+				
+				&:hover {
+					background: rgba(214, 203, 203, 0.61);
+					cursor: pointer;
+					transition: 0.7s;
+				}		
+		}		
+		
+		&__author {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+		}
+}
+
+.author {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	background: url(../img/author.jpg) no-repeat;
+		
+		&-caption {
+			margin-left: 15px;
+				
+				&__name {
+					margin-bottom: 5px;
+					font-size: 30px;
+					font-weight: 600;
+				}
+
+				&__trade {
+					margin-top: 5px;
+					font-size: 18px;
+				}
+		}
+}

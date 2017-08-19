@@ -1,0 +1,90 @@
+.terms {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 92px;
+	margin-bottom: 75px;
+	font-family: 'PT Sans', sans-serif;
+		
+		&-item {
+			width: 313px;
+				
+				&__caption {
+					margin-top: 0;
+					margin-bottom: 6px;
+				    padding-top: 20px;
+				    padding-bottom: 15px;
+				    border-top-left-radius: 10px;
+				    border-top-right-radius: 10px;
+					background: $primary-color;
+					font-size: 26px;
+					font-weight: $fontregular;
+					text-align: center;
+
+						&::first-letter {
+							font-size: 36px;
+						}
+
+						&.pay {
+							font-size: 32px;
+						}						
+				}
+				
+				&__section {
+					padding: 30px 35px;
+					border-bottom-left-radius: 10px;
+					border-bottom-right-radius: 10px;
+					height: 175px;
+					background: #f7f0e6;					
+					font-size: 17px;
+																		
+						&__p {
+							margin-top: 0;
+							margin-bottom: 0;
+							font-size: 18px;
+								
+								&:last-child {
+									margin-top: 10px;
+									font-size: 18px;
+								}
+						}
+						
+						
+				}
+				
+				&__shiping {					
+					display: inline-block;
+					margin-top: 10px;
+					color: red;
+				}
+		}
+
+		&-list {
+			margin-top: 15px;
+			margin-bottom: 0;							
+			font-size: 18px;
+
+				&__item {
+					padding-bottom: 10px;
+				}
+		}
+		
+		&__button {
+			padding: 25px 30px;
+			border: none;
+		    border-radius: 10px;
+			background: $button-color;
+			color: white;
+		    font-size: 26px;
+				
+				&-container {
+					margin-bottom: 120px;
+					text-align: center;					
+				}
+				
+				&:hover {
+					background: rgba(187, 43, 52, 0.81);
+					cursor: pointer;
+					transition: 0.7s;
+				}
+		}
+}	

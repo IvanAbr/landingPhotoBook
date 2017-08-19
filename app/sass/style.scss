@@ -1,0 +1,56 @@
+@font-face {
+	font-family: AgoraSansPro;
+	src: url(../fonts/pfagorasanspro.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+ 
+$fontlight: 300;
+
+$fontregular: 400;
+
+$fontsemibold: 600;
+
+$fontbold: 700;
+
+$primary-color: #ffd200;
+
+$button-color: #e11a27;
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1520px;
+		
+		&__inner {
+			max-width: 1080px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+}
+
+@import 'header';
+
+@import 'menu';
+
+@import 'banner';
+
+@import 'instraction';
+
+@import 'advantage';
+
+@import 'solutions';
+
+@import 'testimonials';
+
+@import 'terms';
+
+@import 'footer';
+
+@import 'mobile';

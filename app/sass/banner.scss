@@ -1,0 +1,32 @@
+.banner {
+	padding-top: 30px;
+	padding-bottom: 270px;
+	background: url(../img/banner.jpg) center;
+	background-size: cover;
+	text-align: center;
+	
+		&__caption {
+			margin-bottom: -10px;
+			font-size: 56px;
+			font-weight: $fontlight;
+		}
+		
+		&__item {
+			font-size: 24px;
+		}
+		
+		&__button {
+			margin-top: 70px;
+			padding: 25px 45px;
+			border: 1px solid black;
+		    border-radius: 10px;
+			background: rgba(255, 255, 255, 0);  
+		    font-size: 22px;
+				
+				&:hover {
+					background: rgba(214, 203, 192, 0.7);
+					transition: 0.4s;
+					cursor: pointer;
+				}	
+		}
+}

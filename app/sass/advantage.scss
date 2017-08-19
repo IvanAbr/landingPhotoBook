@@ -1,0 +1,150 @@
+.advantage {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 15px;
+		
+		&-item {
+			width: 314px;
+			margin-bottom: 25px;
+
+				&__import {
+					width: 270px;
+					height: 270px;
+					border-radius: 50%;
+					background: url(../img/round_adv.png) no-repeat;
+					background-size: auto;
+					display: flex;
+				    align-items: center;
+				    justify-content: center;
+				    margin: 0 auto;
+				}
+
+				&__edit {
+					width: 270px;
+					height: 270px;
+					border-radius: 50%;
+					background: url(../img/kitty.jpg) no-repeat -70px 0px;
+				    background-size: auto;
+				    display: flex;
+				    align-items: center;
+				    justify-content: center;
+				    margin: 0 auto;
+				}
+
+				&__template {
+					width: 270px;
+					height: 270px;
+					border-radius: 50%;
+					background: url(../img/template.jpg) no-repeat -25px -35px;
+				    background-size: auto;
+				    display: flex;
+				    align-items: center;
+				    justify-content: center;
+				    margin: 0 auto;
+				}
+				
+				&__caption {
+					width: 300px;
+					margin: 0 auto;
+					font-weight: 400;
+
+						&--main {
+							margin: 23px 0;
+							font-size: 24px;
+							font-weight: $fontregular;
+						}
+
+						&--bottom {
+							width: 292px;
+							margin: 0 auto;
+						}
+				}
+		}
+		
+		&_cover {
+			padding-top: 25px;
+			padding-bottom: 77px; 
+			background: #f3f0e7;
+			text-align: center;
+		}
+
+		&-maincaption {
+			font-size: 50px;
+			font-weight: $fontlight;
+		}
+		
+		&_caption {
+			display: flex;
+			justify-content: space-around;
+				
+				&_item {
+					width: 300px;
+					margin: 0 auto;
+					font-weight: 400;
+											
+						&_main {
+							margin: 23px 0;
+							font-size: 24px;
+							font-weight: $fontregular;
+						}
+						
+						&_bottom {
+							width: 292px;
+							margin: 0 auto;
+						}
+				}
+		}
+		
+		&__button {
+			margin-top: 65px;
+			padding: 25px 45px;
+			border: none;
+		    border-radius: 10px;
+			background: $button-color;
+			color: white;
+		    font-size: 22px;
+		    font-weight: $fontregular;
+				
+				&:hover {
+					background: rgba(210, 35, 47, 0.79);
+					cursor: pointer;
+					transition: 0.7s;
+				}
+		}
+}
+
+.item__import {
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;
+	background: url(../img/round_adv.png) no-repeat;
+	background-size: auto;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.item__edit {
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;
+	background: url(../img/kitty.jpg) no-repeat -70px 0px;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.item__template {
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;
+	background: url(../img/template.jpg) no-repeat -25px -35px;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
